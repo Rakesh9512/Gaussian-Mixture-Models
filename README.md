@@ -97,7 +97,7 @@ gmm_score = silhouette_score(X, gmm_labels)
 
 print(f"K-Means Silhouette Score: {kmeans_score}")
 print(f"GMM Silhouette Score: {gmm_score}")
-```
+
 
 Results & Evaluation  
 | Method   | Assumptions         | Clustering Type | Performance |  
@@ -108,7 +108,7 @@ Results & Evaluation
  Conclusion  
  K-Means is simple, efficient, and best suited for spherical clusters.  
  GMM is more flexible, accommodating elliptical clusters and soft assignments.  
-The Silhouette Score often favors **GMM** when clusters are not perfectly spherical.  
+ The Silhouette Score often favors **GMM** when clusters are not perfectly spherical.  
 
 Future Improvements  
 Experiment with different datasets.  
